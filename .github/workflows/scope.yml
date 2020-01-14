@@ -30,7 +30,7 @@ jobs:
       with:
         dsn: ${{secrets.SCOPE_DSN}} # required
 
-    - name: Upload Scope logs
+    - name: Upload Scope Logs
       if: always()
       uses: actions/upload-artifact@v1
       with:
